@@ -1,4 +1,3 @@
-#IntegerSet Class
 The IntegerSet class represents a set of integers with various methods for set operations.
 
 

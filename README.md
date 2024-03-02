@@ -1,11 +1,17 @@
 IntegerSet Class
 The IntegerSet class represents a set of integers with various methods for set operations.
 
-Overview
-The IntegerSet class provides functionality to manipulate sets of integers, including operations such as adding, removing, finding the largest and smallest elements, computing set unions, intersections, differences, and complements.
 
-Features
-Supports basic set operations: add, remove, clear.
-Provides methods to compute the largest and smallest elements in the set.
-Implements set operations such as union, intersection, difference, and complement.
-Checks for empty sets and handles exceptions appropriately.
+The equals method checks if two sets contain the same elements, ignoring order.
+
+The largest and smallest methods use streams to find the max/min values. They throw an IntegerSetException if the set is empty.
+
+The add method only adds the item if it's not already present, to avoid duplicates.
+
+The union method adds all elements from the other set.
+
+The intersect method retains only elements present in both sets.
+
+The diff method removes elements from the other set.
+
+The complement method adds elements from the other set that are not present in this set. 

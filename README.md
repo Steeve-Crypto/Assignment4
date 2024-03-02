@@ -1,4 +1,4 @@
-IntegerSet Class
+#IntegerSet Class
 The IntegerSet class represents a set of integers with various methods for set operations.
 
 
@@ -17,5 +17,6 @@ The diff method removes elements from the other set.
 The complement method adds elements from the other set that are not present in this set. 
 
 
-Challenges
+Challenges:
+
 I try using javaDoc *.java in vain
